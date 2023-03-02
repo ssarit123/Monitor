@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'Monitor_Example' do
+  pod 'Monitor', :path => '../'
+
+  target 'Monitor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
